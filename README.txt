@@ -7,7 +7,7 @@ fields) that are currently being mis-mapped by both the mobile APK
 parser and the PingPoint server parser.
 
 Source: IOSiX PT30 OBD-II/J1939 dongle
-Truck:  Unit 160, VIN 3AKJHHDR1RSUX1166 (2024 Freightliner)
+Truck:  Unit 160, VIN 1XXXXXXXXXXXXXXXX (2024 Freightliner)
 Captured: 2026-04-23 through 2026-04-25 UTC
 Driver tokens captured:
   - drv_ca9537005b892f40396c32cb (active session, 2026-04-24)
@@ -46,7 +46,7 @@ Files in this archive:
 Field analysis (all values empirical, no official spec):
 --------------------------------------------------------
 HIGH CONFIDENCE (derived from value ranges across 4941 samples):
-  f1  = VIN (3AKJHHDR1RSUX1166)
+  f1  = VIN (1XXXXXXXXXXXXXXXX)
   f2  = RPM                     range 496..1726  (diesel idle/redline)
   f3  = vehicle speed km/h      range 0..114
   f4  = odometer miles          range ~563000+
@@ -122,7 +122,7 @@ Total decoded CSV lines:                5,665
 
 Sensitive data note:
 --------------------
-Archive contains the truck VIN (3AKJHHDR1RSUX1166) and GPS
+Archive contains the truck VIN (1XXXXXXXXXXXXXXXX) and GPS
 coordinates of the trip (I-40 east of Nashville, heading west).
 Safe to share with IOSiX support — they already know this asset.
 Do not publish publicly.

@@ -166,7 +166,7 @@ stream.
 
 - **Truck:** 2024 Freightliner Cascadia
 - **Engine:** Detroit Diesel DD15 (~12.8L displacement)
-- **VIN:** `3AKJHHDR1RSUX1166`
+- **VIN:** `1XXXXXXXXXXXXXXXX`
 - **Dongle:** IOSiX PT30 (BLE-equipped J1939/OBD-II reader)
 
 ## Reproducing the decode
@@ -178,12 +178,28 @@ python3 decode_samples.py   # groups by engine mode
 
 Both scripts expect the jsonl files in the same directory.
 
+## Disclaimer
+
+This repository documents protocol observations made through normal
+operational use of legally purchased IOSiX PT30 hardware in our
+fleet. No firmware was decompiled, no protected technical measures
+were circumvented. Published in good faith under interoperability
+provisions (DMCA §1201(f), EU Software Directive Article 6) for
+the purpose of correctly integrating IOSiX devices into our fleet
+management system.
+
+If IOSiX believes this publication infringes their rights, please
+contact info@suverse.io and we will work with you to find an
+appropriate resolution.
+
 ## License
 
 Data published for protocol reverse engineering. No commercial
-restrictions. VIN and GPS coordinates are included intentionally —
-do not redact for analysis purposes. This trip path is I-40
-westbound from Rockwood, TN toward Walthill, NE.
+restrictions. The VIN field has been redacted (`1XXXXXXXXXXXXXXXX`)
+to depersonalize the dataset; GPS coordinates are preserved as-is
+because they are essential for sample-by-sample interpretation.
+The trip path is I-40 westbound from Rockwood, TN toward
+Walthill, NE.
 
 ## Contributions welcome
 
